@@ -60,7 +60,8 @@ body {
   height: 120px;
   align-items: center;
   transform: scale(1.25);
-
+  transition: transform 0.5s;
+  transition-timing-function: ease-on-out;
 }
 
 
